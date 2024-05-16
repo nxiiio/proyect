@@ -56,7 +56,7 @@ while True:
             print("****************************")
             print(f"Subtotal a pagar: {total}")
             if desc_real:
-                total = total * 1.1
+                total = total * 0.9
                 print("Descuento por codigo: ")          ### Mejorar
         case __:
             print("Numero incorrecto")
