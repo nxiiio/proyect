@@ -34,6 +34,7 @@ while True:
         print("* [6] Pagar")
         seleccion = int(input("****************\n---> "))
     except:
+        os.system("cls")
         print("Ocurrio un error, trata de poner numeros")
         continue
     match seleccion:
