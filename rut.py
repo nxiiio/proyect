@@ -1,3 +1,13 @@
+#Ingresa un rut y calcula el ultimo digito (Rut verificador)
+
+#Ejemplos:
+#Entrada: 64784288 Salida: 7
+#Entrada: 58176716 Salida: 1
+#Entrada: 20817996 Salida: 9
+
+
+
+
 rut = input("INGRESE RUT ")
 
 
@@ -23,3 +33,6 @@ result = 0
 for i in real_rut: result += i
 result = abs(abs((int(result / 11) * 11) - result) - 11)
 print(result)
+
+
+
